@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import AdBanner from "@/components/AdBanner.client";
+
 import { toast } from "sonner";
 import {
   Github,
@@ -321,6 +323,9 @@ export default function Portfolio() {
         </Button>
       )}
 
+      {/* Show Ad */}
+      <AdBanner />
+
       {/* Hero Section */}
       <section
         ref={heroRef}
@@ -388,6 +393,9 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      {/* Show Ad */}
+      <AdBanner />
 
       {/* About Me Section */}
       <section
@@ -465,6 +473,9 @@ export default function Portfolio() {
               </CardContent>
             </Card>
           </div>
+
+          {/* Show Ad */}
+          <AdBanner />
 
           {/* Experience Summary */}
           <Card className="bg-gradient-to-br from-purple-50 to-pink-100 dark:from-purple-900/20 dark:to-pink-900/20 border-primary/20">
@@ -631,6 +642,9 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Show Ad */}
+      <AdBanner />
+
       {/* Skills Section */}
       <section
         ref={skillsRef}
@@ -754,6 +768,9 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      {/* Show Ad */}
+      <AdBanner />
 
       {/* Projects Section */}
       <section
@@ -913,6 +930,9 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* Show Ad */}
+      <AdBanner />
+
       {/* Contact Section */}
       <section
         ref={contactRef}
@@ -968,6 +988,9 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
+
+      {/* Show Ad */}
+      <AdBanner />
 
       {/* Enhanced Footer */}
       <footer className="border-t bg-gradient-to-r from-slate-50 to-blue-50 dark:from-slate-900 dark:to-blue-900/20 py-12 px-4 relative z-10">
